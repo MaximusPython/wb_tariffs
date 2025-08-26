@@ -1,28 +1,19 @@
 {
-    "compilerOptions": {
-        "strict": true,
-        "module": "NodeNext",
-        "target": "es2017",
-        "esModuleInterop": true,
-        "allowJs": true,
-        "checkJs": true,
-        "skipLibCheck": true,
-        "rootDir": "./src",
-        "outDir": "./dist",
-        "paths": {
-            "#*": [
-                "./src/*",
-                "./dist/*"
-            ]
-        }
-    },
-    "include": [
-        "src/**/*.ts",
-        "src/**/*.js",
-    ],
-    "exclude": [
-        "node_modules",
-        "src/**/*.test.*",
-        "src/**/*.spec.*"
-    ]
+  "compilerOptions": {
+    "strict": true,
+    "module": "NodeNext",
+    "target": "es2017",
+    "esModuleInterop": true,
+    "allowJs": true,
+    "checkJs": true,
+    "skipLibCheck": true,
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "paths": {
+      "#*": ["./src/*", "./dist/*"],
+      "#app.js": ["./src/app.js"]
+    }
+  },
+  "include": ["src/**/*.ts", "src/**/*.js", "src", "global.d.ts"],
+  "exclude": ["node_modules", "src/**/*.test.*", "src/**/*.spec.*"]
 }
