@@ -12,7 +12,7 @@
     "dependencies": {
         "axios": "^1.4.0",
         "cron": "^2.3.1",
-        "dotenv": "^16.0.0",
+        "dotenv": "^16.6.1",
         "express": "^4.21.2",
         "googleapis": "^121.0.0",
         "knex": "^2.5.1",
@@ -25,8 +25,8 @@
         "ts-node": "^10.9.1",
         "ts-node-dev": "^2.0.0",
         "typescript": "^5.5.0"
-    }, 
-     "_moduleAliases": {
-    "#app.js": "dist/app.js"
-}
+    },
+    "_moduleAliases": {
+        "#app.js": "dist/app.js"
+    }
 }
